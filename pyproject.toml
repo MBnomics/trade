@@ -1,0 +1,31 @@
+[project]
+name = "trade"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dbnomics>=1.2.6",
+    "duckdb>=1.2.0",
+    "folium>=0.19.5",
+    "geopandas>=1.0.1",
+    "geopy>=2.4.1",
+    "ipykernel>=6.29.5",
+    "nbformat>=5.10.4",
+    "pip>=25.0.1",
+    "plotly>=6.0.0",
+    "polars>=1.24.0",
+    "pyarrow>=19.0.1",
+    "pycountry>=24.6.1",
+    "requests>=2.32.3",
+    "streamlit-folium>=0.24.0",
+    "streamlit-option-menu>=0.4.0",
+    "streamlit>=1.43.0",
+]
+
+[project.scripts]
+hello = "trade:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
