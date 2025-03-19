@@ -23,9 +23,3 @@ dependencies = [
     "streamlit>=1.43.0",
 ]
 
-[project.scripts]
-hello = "trade:hello"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
